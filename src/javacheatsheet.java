@@ -29,8 +29,8 @@ public class javacheatsheet {
         System.out.println(amount/2);
 
 // Booleans In Java
-        boolean sexy = true;
-        System.out.println(sexy);
+        boolean smart = true;
+        System.out.println(smart);
 
 // Random Number using Math.Random
         int random = (int)(Math.random() * 10) + 1;
@@ -121,6 +121,26 @@ minimum.*/
             }
             g++;
         }
+
+// Java Inheritance
+        class Animal {
+            protected int legs;
+            protected boolean gooddog;
+            public void bark() {
+                System.out.println("Bark Bark");
+            }
+        }
+
+        class Dog extends Animal {
+            Dog() {
+                legs = 4;
+                gooddog = true;
+
+            }
+        }
+        Dog d = new Dog();
+        d.bark();
+        System.out.println(d.legs);
 
     }
 }
