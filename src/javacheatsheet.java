@@ -184,8 +184,13 @@ Methodexample();
 
 // Calling a Method with Parameters
 sayHi("Ahmed");
-	  
-	  
+		
+// Creating Sets
+		HashSet<String> set = new HashSet<String>();
+		set.add("A");
+		set.add("B");
+		set.add("C");
+		System.out.println(set);
 	  
    }
 }
