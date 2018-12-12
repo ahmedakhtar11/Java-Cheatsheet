@@ -141,6 +141,22 @@ minimum.*/
         Dog d = new Dog();
         d.bark();
         System.out.println(d.legs);
+        
+ // Exception Handling: Try, Catch, Finally
+// System error occurs when dividing by 0 
+	  try {
+			int a = 10;
+			int b = 0;
+			System.out.println(a/b);
+	  } 
+
+      catch (Exception e) {
+			System.out.println("Exception caught in catch block");
+	  }
+
+	  finally {
+			System.out.println("Code Block Executed");
+	  }
 
     }
 }
