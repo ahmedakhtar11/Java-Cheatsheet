@@ -46,8 +46,8 @@ double amount = 10;
 System.out.println(amount/2);
 
 // Booleans In Java
-boolean sexy = true;
-System.out.println(sexy);
+boolean smart = true;
+System.out.println(smart);
 
 // Random Number using Math.Random
 int random = (int)(Math.random() * 10) + 1;
