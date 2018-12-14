@@ -99,7 +99,19 @@ System.out.println(y);
 // User Input in Java
 // Prints User Input
 Scanner myVar = new Scanner(System.in);
-System.out.println(myVar.nextLine());	
+
+/* Alternative Input Print:
+System.out.println(myVar.nextLine()); */
+
+// Putting Input into a String Variable
+String entry = myVar.next();
+System.out.println(entry);
+
+
+// Checking whether input equals variable
+if (entry.equals("marco")) {
+	System.out.println("Polo");
+}
 
 //If-then Statements
 // Prints: Welcome!
@@ -232,3 +244,4 @@ sayHi("Ahmed");
 	  
    }
 }
+
